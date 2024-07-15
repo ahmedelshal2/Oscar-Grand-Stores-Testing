@@ -1,0 +1,158 @@
+Test Plan for Online Grocery Shopping Application – Oscar Grand Stores
+________________________________________
+1. Introduction
+1.1. Purpose
+This test plan outlines the strategy, approach, resources, schedule, and scope of the testing activities for the Online Grocery Shopping application, developed for Oscar Grand Stores, an online store in Egypt. The application includes both web and mobile platforms, providing users with the ability to browse, purchase, and manage grocery orders.
+1.2. Scope
+The scope of testing includes functional, non-functional, regression, and user acceptance testing of the web and mobile applications.
+1.3. Objectives
+•	Ensure the application meets specified requirements.
+•	Identify and resolve defects.
+•	Verify the application works across different devices and browsers.
+________________________________________
+2. Test Items
+The test items include:
+•	User Registration and Login
+•	Product Search and Browsing
+•	Shopping Cart
+•	Checkout Process
+•	Order History
+•	User Profile Management
+•	Payment Gateway Integration
+•	Notifications and Alerts
+________________________________________
+3. Features to be Tested
+3.1. Functional Testing
+•	User authentication
+•	Product listing and search functionality
+•	Cart operations (add, remove, update items)
+•	Checkout and payment processing
+•	Order confirmation and tracking
+•	User profile updates
+3.2. Non-Functional Testing
+•	Performance (load and stress testing)
+•	Usability
+•	Compatibility (across different browsers and mobile devices)
+•	Security (vulnerability assessment)
+3.3. Regression Testing
+•	Re-testing all functionalities to ensure no new defects are introduced
+________________________________________
+4. Approach
+4.1. Testing Strategy
+•	Manual Testing: Initial exploration and basic functionality testing.
+•	Automated Testing: For repetitive tasks and regression testing using Selenium and Appium.
+•	Tools:
+o	Test Management: JIRA, TestRail
+o	Automation: Selenium, Appium, JUnit
+o	Performance: JMeter
+o	Security: OWASP ZAP
+4.2. Test Levels
+•	Unit Testing: Conducted by developers.
+•	Integration Testing: Focus on interactions between different components.
+•	System Testing: End-to-end testing of the complete system.
+•	User Acceptance Testing (UAT): Final testing based on user scenarios.
+4.3. Test Cases and Data
+•	Test cases will be documented in TestRail.
+•	Fake data for testing purposes will be used to mimic real scenarios.
+________________________________________
+5. Test Environment
+5.1. Hardware
+•	Web: Desktops, Laptops
+•	Mobile: Various iOS and Android devices
+5.2. Software
+•	Browsers: Chrome, Firefox, Safari, Edge
+•	Mobile OS: iOS 13+, Android 9+
+5.3. Network
+•	Wi-Fi and Mobile Data to simulate different connectivity scenarios.
+________________________________________
+6. Schedule
+6.1. Project Timeline
+Phase	Start Date	End Date	Duration
+Test Planning	Jul 1, 2021	Jul 15, 2021	2 weeks
+Test Design	Jul 16, 2021	Aug 15, 2021	1 month
+Test Environment Setup	Aug 1, 2021	Aug 15, 2021	2 weeks
+Test Case Development	Aug 16, 2021	Sep 15, 2021	1 month
+Test Execution	Sep 16, 2021	May 15, 2022	8 months
+Defect Reporting & Fixing	Ongoing during Test Execution		
+Regression Testing	May 16, 2022	Jun 15, 2022	1 month
+User Acceptance Testing	Jun 16, 2022	Jul 15, 2022	1 month
+Test Closure	Jul 16, 2022	Jul 31, 2022	2 weeks
+6.2. Milestones
+•	Test Plan Completion: Jul 15, 2021
+•	Test Design Completion: Aug 15, 2021
+•	Test Environment Setup Completion: Aug 15, 2021
+•	Test Case Development Completion: Sep 15, 2021
+•	Test Execution Start: Sep 16, 2021
+•	Regression Testing Start: May 16, 2022
+•	User Acceptance Testing Start: Jun 16, 2022
+•	Test Closure: Jul 31, 2022
+6.3. Deliverables
+•	Test Plan Document
+•	Test Cases Document
+•	Test Execution Reports
+•	Defect Logs
+•	Final Test Summary Report
+________________________________________
+7. Entry and Exit Criteria
+7.1. Entry Criteria
+•	Test environment is set up.
+•	Test cases are approved.
+•	Application build is deployed.
+7.2. Exit Criteria
+•	All planned test cases are executed.
+•	All critical defects are resolved.
+•	Test summary report is prepared.
+________________________________________
+8. Risks and Mitigations
+8.1. Risks
+•	Delays in build delivery.
+•	High number of defects affecting timelines.
+•	Limited resources for testing.
+8.2. Mitigations
+•	Close coordination with the development team.
+•	Prioritize critical test cases.
+•	Allocate additional resources if needed.
+________________________________________
+9. Test Management 
+9.1 Roles and Responsibilities
+•	Test Manager: Overall test strategy and management.
+•	Test Lead: Test planning and execution oversight.
+•	Testers: Test case creation, execution, and defect reporting.
+•	Developers: Fixing identified defects.
+•	Business Analysts: Requirement clarification.
+9.2 Communication Plan
+•	Weekly status meetings.
+•	Daily stand-ups during test execution.
+•	Test summary reports at the end of each test phase.
+10. Tools and Resources
+•	Test Management Tool: TestRail
+•	Defect Tracking Tool: Jira
+•	Automation Tools: Selenium, Appium
+•	Performance Testing Tool: JMeter
+•	Security Testing Tool: OWASP ZAP
+11. Test Case Design
+•	Test cases will be designed to cover all functional and non-functional requirements.
+•	Each test case will include a description, preconditions, steps, expected results, and actual results.
+12. Approval
+This test plan will be reviewed and approved by the following stakeholders:
+•	Project Manager: Amr Maged
+•	Test Manager: Hadeel Mohamed
+•	Business Analyst: Tamer Ishak
+•	Development Lead: Mohamed Gamal
+•	Test Lead: Ahmed Morshedy
+________________________________________
+13. Appendices
+A. Test Data
+•	User Accounts:
+o	Username: ahmed2555@gmail.com, Password: 123456789
+o	Username: t2024@teml.net, Password: 123456789
+•	Products:
+o	Product Name: Apple, SKU: 1001, Price: $1.00
+o	Product Name: Milk, SKU: 1002, Price: $1.50
+•	Orders:
+o	Order ID: 5001, User: user1@example.com, Products: Apple (2), Milk (1)
+o	Order ID: 5002, User: user2@example.com, Products: Apple (1), Milk (2)
+•	Payment Details:
+o	Card Number: 4111 1111 1111 1111, Expiry: 12/25, CVV: 123
+o	Card Number: 5500 0000 0000 0004, Expiry: 11/24, CVV: 456
+
